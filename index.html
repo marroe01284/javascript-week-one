@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 2rem;
+            color: rgb(227, 152, 39);
+        }
+        button{
+            border-radius: 0.5rem;
+            border: none;
+            color: white;
+            background-color: rgb(197, 194, 194);
+        }
+        button:hover{
+            background-color: rgb(121, 121, 249);
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="demo">this is a paragraph</p>
+    <button onclick="changeText()"> click on me !</button>
+    <script>
+
+        function changeText() {
+            console.log("marius");
+            console.log(document.getElementById("demo"))
+            document.getElementById("demo").innerHTML = "Takk Marius";
+
+        }
+
+    </script>
+</body>
+
+</html>
