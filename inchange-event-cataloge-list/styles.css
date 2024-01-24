@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+select{
+    border-radius: 8px;
+    width: 200px;
+    height: 38px;
+    font-size: 1rem;
+    border: 2px solid black;
+    background-color: lightgray;
+    font-weight: 500;
+    padding: .5rem;
+}
+
+.circle {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
