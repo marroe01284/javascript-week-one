@@ -171,6 +171,7 @@ h2{
 }
 .buy{
     height: 40px;
+    width: 100%;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -178,4 +179,8 @@ h2{
     background-color: blueviolet;
     color: white;
     cursor: pointer;
+    border: none;
+}
+.buy:hover{
+    background-color: rgb(180, 127, 229);
 }
